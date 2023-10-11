@@ -1,6 +1,7 @@
 /* Importing/Linking to the Nunito Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 
+/* BASIC STYLES */
 * {
     margin: 0;
 
@@ -24,6 +25,7 @@ a {
     text-decoration: none;
 }
 
+/* MAIN SECTION */
 #main {
     /* VH (Viewport Height) determines the height of an element by setting it to a percentage of the viewport (NOTE: VW is used for width) */
     height: 100vh;
@@ -92,4 +94,29 @@ video {
 #click:hover {
     /* Changes the size of an element */
     transform: scale(0.95);
+}
+
+/* ABOUT SECTION */
+#about {
+    text-align: center;
+    padding: 50px;
+}
+
+#about > p {
+    font-size: 20px;
+}
+
+#about > h2 {
+    margin: 40px;
+    color: #4b5163;
+}
+
+#about a {
+    color: #4b5163;
+}
+
+i {
+    font-size: 48px;
+    margin: 0 5px;
+    color: #4b5163;
 }
